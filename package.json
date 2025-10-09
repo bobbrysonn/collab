@@ -1,0 +1,15 @@
+{
+  "name": "griot-collab-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@hocuspocus/extension-logger": "^2.0.0",
+    "@hocuspocus/extension-sqlite": "^2.0.0",
+    "@hocuspocus/server": "^2.0.0",
+    "@slate-yjs/core": "^1.0.2",
+    "yjs": "^13.6.0"
+  }
+}
