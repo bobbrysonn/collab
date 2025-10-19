@@ -20,6 +20,7 @@ services:
     environment:
       HOST: "0.0.0.0"
       PORT: "1234"
+      JWT_SECRET: "Pp66nozCv6cwh2LjRJhwEqaUaqlRHCvr"
     ports:
       - "1234:1234"
     volumes:
